@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="computer_music.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="4.72"
+     inkscape:cx="25"
+     inkscape:cy="25"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="65"
+     inkscape:window-y="315"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="matrix(1.142318,0,0,1.3248242,-3.5578746,-9.8832995)"
+     inkscape:label="layer1">
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="music"
+       transform="matrix(1.1615701,0,0,1.028724,-4.1304748,0.57761132)">
+      <ellipse
+         style="fill:#fefefe;stroke-width:0.319458;stroke-linecap:round;stroke-linejoin:round"
+         id="path1"
+         cx="23.815041"
+         cy="27.760597"
+         rx="2.3750415"
+         ry="1.6415737"
+         transform="matrix(1.142318,0,0,1.3248242,-3.5578746,-9.8832995)" />
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#ffffff;stroke-width:0.882781;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 25.742736,27.972196 0.01269,-5.880169"
+         id="path2"
+         transform="matrix(1.142318,0,0,1.3248242,-3.5578746,-9.8832995)" />
+      <rect
+         style="fill:#fefefe;fill-opacity:1;stroke:#ffffff;stroke-width:0.882781;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2"
+         width="3.1746314"
+         height="1.4427369"
+         x="25.741032"
+         y="21.535954"
+         ry="0"
+         transform="matrix(1.142318,0,0,1.3248242,-3.5578746,-9.8832995)" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="monitor"
+       transform="matrix(0.87582447,0,0,0.78385422,3.1042064,7.1782798)">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.84719;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 15.862379,37.954221 34.13762,37.908263"
+         id="path3" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.84776;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 8.5216753,16.014741 -0.097794,17.173456 33.0544407,0.09087 c 0.0326,-7.203182 0.0652,-11.570123 0.0978,-17.355185 z"
+         id="path4"
+         transform="matrix(1.142318,0,0,1.3248242,-3.5578746,-9.8832995)" />
+    </g>
+  </g>
+</svg>

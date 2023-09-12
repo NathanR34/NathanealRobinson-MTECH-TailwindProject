@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="radio_waves.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="4.72"
+     inkscape:cx="25"
+     inkscape:cy="25"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="matrix(2.6666491,0,0,2.6666697,-41.66637,-41.666664)">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.805811;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path1"
+       d="m 22.639892,26.979337 a 3.3380227,3.3799067 0 0 1 0,-4.77991 3.3380227,3.3799067 0 0 1 4.720677,0 3.3380227,3.3799067 0 0 1 0,4.77991" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.805811;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path3"
+       d="m 21.342013,28.537681 a 5.1733856,5.2382989 0 0 1 0,-7.408073 5.1733856,5.2382989 0 0 1 7.316272,0 5.1733856,5.2382989 0 0 1 0,7.408074" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.845094;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path4"
+       d="m 19.994395,30.15514 a 7.0790777,7.1679025 0 0 1 0,-10.136944 7.0790777,7.1679025 0 0 1 10.011328,0 7.0790777,7.1679025 0 0 1 0,10.136944" />
+    <path
+       style="fill:#fefefe;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path5"
+       d="m 18.320677,27.653852 7.284468,12.617069 H 11.036208 Z"
+       transform="matrix(0.80369894,0,0,0.50139664,10.290524,12.207978)" />
+  </g>
+</svg>

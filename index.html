@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="h-full bg-slate-400">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tailwind</title>
+        <!--script src="https://cdn.tailwindcss.com"></script-->
+        <link rel="stylesheet" href="./app.css">
+    </head>
+    <body class="h-full">
+        <div id="main" class="flex w-full h-full bg-[url(./images/backdrop.jpg)] bg-no-repeat bg-cover text-white">
+            <div id="side-bar-area" class="flex flex-col justify-center h-full pl-4 place-items-center min-w-fit basis-24">
+                <div id="side-bar-element" class="flex flex-col justify-between gap-2 p-2 text-center bg-black bg-opacity-50 rounded-full place-items-center backdrop-blur-lg">
+                    <div class="flex justify-center p-1.5 align-middle bg-red-600 rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/play_circle.svg"></div>
+                    <div class="flex justify-center p-1.5 align-middle rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/grid.svg"></div>
+                    <div class="flex justify-center p-1.5 align-middle rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/computer_music.svg"></div>
+                    <div class="flex justify-center p-1.5 align-middle rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/radio_waves.svg"></div>
+                    <div class="flex justify-center p-1.5 align-middle rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/house_music.svg"></div>
+                    <div class="flex justify-center p-1.5 align-middle rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" src="./images/icons/search.svg"></div>
+                </div>
+            </div>
+            <div id="center-content" class="flex flex-col justify-center w-full h-full pt-20 pb-20 pr-10 place-items-center">
+                <div id="main-content" class="w-full h-full">
+                    <div id="content-container" class="flex w-full h-full rounded-3xl overflow-clip">
+                        <div id="content-side-bar" class="flex flex-col justify-between h-full gap-10 p-6 bg-black bg-opacity-50 basis-60 backdrop-blur-lg">
+                            <div id="logo" class="text-3xl font-bold text-center text-red-600">
+                                NETFLIX
+                            </div>
+                            <div id="content-nav" class="">
+                                <div class="flex gap-2 p-2 text-sm opacity-100"><img width="16" height="16" src="./images/icons/play_circle_active.svg">Browse</div>
+                                <div class="flex gap-2 p-2 text-sm opacity-70"><img width="16" height="16" src="./images/icons/heart.svg">Wishlist</div>
+                                <div class="flex gap-2 p-2 text-sm opacity-70"><img width="16" height="16" src="./images/icons/coming_soon.svg">Coming Soon</div>
+                            </div>
+                            <div id="content-side-main" class="grow bg-opacity-40">
+
+                            </div>
+                        </div>
+                        <div id="content-center" class="h-full p-4 bg-gray-900 bg-opacity-50 basis-4 grow backdrop-blur-lg">
+                            <div id="content-top-bar" class="flex items-center justify-between">
+                                <div class="flex items-center gap-5 p-3 font-bold">
+                                    <div class="flex justify-between w-8">
+                                        <div class="">
+                                            &LeftAngleBracket;
+                                        </div>
+                                        <div class="">
+                                            &RightAngleBracket;
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-center h-10 pr-4 overflow-hidden bg-gray-200 rounded-full outline-none bg-opacity-30 focus-within:outline-white focus-within:outline-1 max-h-16 backdrop-blur-sm w-72">
+                                        <img width="20" height="20" src="./images/icons/mic.svg">
+                                        <input class="w-2/3 overflow-hidden text-left bg-transparent outline-none text-clip whitespace-nowrap" contenteditable="true" placeholder="Search ...">
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-end gap-6 p-3">
+                                    <div class="flex justify-between p-2 text-center bg-gray-200 rounded-full bg-opacity-30 place-items-center backdrop-blur-lg">
+                                        <img width="24" height="24" src="./images/icons/bell.svg">
+                                    </div>
+                                    <div class="flex justify-between gap-2 pt-2 pb-2 pl-4 pr-4 text-center bg-gray-200 rounded-full bg-opacity-30 place-items-center backdrop-blur-lg">
+                                        <img width="40" height="40" class="border-2 border-white rounded-full" src="./images/icons/user.svg">
+                                        <div class="flex flex-col justify-center">
+                                            <div class="h-5">User</div>
+                                            <div class="text-sm text-gray-400">@Guest</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content-main" class="flex items-center justify-center bg-gray-200 rounded-full bg-opacity-30 backdrop-blur-sm">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="matrix(1.357501,0,0,1.3936548,-12.676273,-17.440993)">
+    <rect
+       style="fill:none;stroke:#999999;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="27.966103"
+       height="18.220339"
+       x="13.771187"
+       y="22.245762"
+       rx="1"
+       ry="1" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round"
+       d="M 13.771186,27.542373 H 41.313559"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:2.12897;stroke-linecap:round;stroke-linejoin:round"
+       d="m 18.564485,30.064485 c 0,0 0.528614,7.79533 9.022963,7.870482 8.867901,0.07847 8.848072,-7.870482 8.848072,-7.870482"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:1.30099;stroke-linecap:round;stroke-linejoin:round"
+       d="m 21.36886,20.340445 c 0.13627,3.193045 0,3.193045 0,3.193045"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:1.30099;stroke-linecap:round;stroke-linejoin:round"
+       d="m 33.90554,20.431674 c 0.136268,3.193045 0,3.193045 0,3.193045"
+       id="path4" />
+  </g>
+</svg>
