@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="5.9322033"
+       y="5.0847459"
+       width="86.86441"
+       height="32.203388"
+       id="rect1" />
+  </defs>
+  <g
+     id="layer1"
+     transform="matrix(2.0635139,0,0,2.0635139,4.6183944,-26.728983)"
+     style="stroke-width:0.48461">
+    <path
+       d="M 6.4953439,35.226302 H 3.0932192 V 14.773698 H 6.7593028 C 8.0923544,15.565589 13.24426,29.376006 13.24426,29.376006 V 14.773698 h 3.416791 V 35.491714 H 13.024294 C 11.660368,34.706569 6.4953439,20.624829 6.4953439,20.624829 Z"
+       id="text3"
+       style="font-size:24px;font-family:Thonburi;-inkscape-font-specification:Thonburi;fill:#d40000;stroke-width:0.48461"
+       aria-label="NETFLIX" />
+  </g>
+</svg>

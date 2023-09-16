@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.77777;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 25.000001,5.888885 V 44.111113"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.77777;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 44.111117,24.999999 H 5.888885"
+       id="path2" />
+  </g>
+</svg>
