@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="h-full bg-slate-400">
-    <head>
+    <head lang="en">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>tailwind</title>
@@ -11,12 +11,12 @@
         <div id="main" class="flex w-full h-full bg-[url(./images/backdrop.jpg)] bg-no-repeat bg-cover text-white">
             <div id="side-bar-area" class="flex flex-col justify-center h-full pl-4 place-items-center min-w-fit basis-auto">
                 <div id="side-bar-element" class="flex flex-col justify-between gap-2 p-2 text-center bg-black bg-opacity-50 rounded-full place-items-center backdrop-blur-lg">
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center bg-red-600 rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Browse" src="./images/icons/play_circle.svg"></div>
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Content" src="./images/icons/grid.svg"></div>
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Computer music" src="./images/icons/computer_music.svg"></div>
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Radio" src="./images/icons/radio_waves.svg"></div>
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Home music" src="./images/icons/house_music.svg"></div>
-                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24px" height="24px" alt="Search" src="./images/icons/search.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center bg-red-600 rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Browse" src="./images/icons/play_circle.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Content" src="./images/icons/grid.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Computer music" src="./images/icons/computer_music.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Radio" src="./images/icons/radio_waves.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Home music" src="./images/icons/house_music.svg"></div>
+                    <div class="cursor-pointer flex justify-center p-1.5 align-content-center rounded-full hover:bg-red-600 hover:bg-opacity-25"><img width="24" height="24" alt="Search" src="./images/icons/search.svg"></div>
                 </div>
             </div>
             <div id="center-content" class="flex flex-col justify-center w-full h-full pt-20 pb-20 pl-1 pr-10 align-content-center">
@@ -24,8 +24,8 @@
                     <div id="content-container" class="flex justify-center w-full h-full min-w-full overflow-hidden basis-0 shrink rounded-3xl align-content-center">
                         <div id="content-side-bar" class="flex flex-col h-full gap-10 bg-black bg-opacity-50 md:justify-between max-md:justify-start min-w-fit align-content-center md:p-6 max-md:p-2 max-md:py-8 backdrop-blur-lg">
                             <div id="logo" class="flex justify-center align-content-center">
-                                <img class="max-md:hidden" width=148 height=72 alt="Logo" src="images/logo.svg" alt="logo">
-                                <img class="md:hidden" width=50 height=50 alt="Logo" src="images/icons/logo_small.svg" alt="logo">
+                                <img class="max-md:hidden" width=148 height=72 src="images/logo.svg" alt="Logo">
+                                <img class="md:hidden" width=50 height=50 src="images/icons/logo_small.svg" alt="Logo">
                             </div>
                             <div id="content-nav" class="flex flex-col align-content-center justify-evenly w-fit">
                                 <div class="flex flex-shrink-0 gap-2 p-2 text-sm opacity-100 cursor-pointer w-fit h-fit align-content-center justify-evenly"><img class="min-w-4 min-h-4 max-md:w-6 max-md:h-6" width="16" height="16" alt="Browse" src="./images/icons/play_circle_active.svg"><span class="max-md:hidden">Browse</span></div>
@@ -35,9 +35,9 @@
                             <div id="content-side-main" class="flex flex-col rounded-xl bg-opacity-40 max-md:hidden align-content-center">
                                 <h2 class="pb-4 text-center min-w-fit">New Trailers</h2>
                                 <div id="trailers" class="flex flex-col flex-shrink-0 gap-4 grow align-content-center">
-                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted alt="Videos, Trailers"><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
+                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt="Videos, Trailers"></video></div></div>
+                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                    <div class="flex justify-center flex-shrink-0 w-full h-auto align-content-center grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width=196 height=128 controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
                                 </div>
                             </div>
                         </div>
@@ -46,10 +46,10 @@
                                 <div class="flex items-center gap-5 p-3 font-bold">
                                     <div class="flex w-8 gap-2">
                                         <div class="cursor-pointer">
-                                            <img width="50px" height="50px" src="./images/icons/arrow_left.svg" alt="Left">
+                                            <img width="50" height="50" src="./images/icons/arrow_left.svg" alt="Left">
                                         </div>
                                         <div class="cursor-pointer">
-                                            <img width="50px" height="50px" src="./images/icons/arrow_right.svg" alt="Right">
+                                            <img width="50" height="50" src="./images/icons/arrow_right.svg" alt="Right">
                                         </div>
                                     </div>
                                     <div class="flex justify-center h-10 pr-4 overflow-hidden bg-gray-200 rounded-full outline-none w-72 align-content-center bg-opacity-30 focus-within:outline-white focus-within:outline-1 max-h-16 backdrop-blur-sm">
@@ -80,32 +80,32 @@
                                         </div>
                                         <div class="flex justify-center h-12 gap-2 align-content-center">
                                                 <button class="flex justify-center h-10 px-6 py-2 text-sm text-center bg-red-600 rounded-lg align-content-center">Watch</button>
-                                                <button class="flex justify-center w-10 h-10 p-3 bg-gray-500 rounded-lg align-content-center"><img width="20px" height="20px" src="./images/icons/plus.svg" alt="More"></button>
+                                                <button class="flex justify-center w-10 h-10 p-3 bg-gray-500 rounded-lg align-content-center"><img width="20" height="20" src="./images/icons/plus.svg" alt="More"></button>
                                         </div>
                                     </div>
                                     <div class="absolute bottom-0 right-0 flex flex-wrap gap-2 mx-8 my-4">
-                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-2 border-red-600 rounded-xl" alt="" src="./images/earth.jpg" alt="Earth"></div>
-                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-0 border-red-600 border-opacity-25 hover:border-2 rounded-xl" alt="" src="./images/ship.jpg" alt="Ship"></div>
-                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-0 border-red-600 border-opacity-25 hover:border-2 rounded-xl" alt="" src="./images/surf.jpg" alt="Surf"></div>
+                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-2 border-red-600 rounded-xl" src="./images/earth.jpg" alt="Earth"></div>
+                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-0 border-red-600 border-opacity-25 hover:border-2 rounded-xl" src="./images/ship.jpg" alt="Ship"></div>
+                                        <div><img  width="80" height="48" class="object-cover w-20 h-12 border-0 border-red-600 border-opacity-25 hover:border-2 rounded-xl" src="./images/surf.jpg" alt="Surf"></div>
                                     </div>
                                     <div class="flex w-full h-80">
-                                        <img  width="1024px" height="512px" class="object-cover w-full h-full rounded-xl" alt="" src="./images/earth.jpg" alt="">
+                                        <img  width="1024" height="512" class="object-cover w-full h-full rounded-xl" src="./images/earth.jpg" alt="">
                                     </div>
                                 </div>
-                                <div id="video-groups h-full">
+                                <div id="video-groups">
                                     <h2 class="mt-6 mb-4">Popcorn Mania</h2>
                                     <div id="suggestions" class="flex h-56 gap-2 my-3 overflow-x-auto align-content-center">
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
                                     </div>
                                     <h2 class="mt-6 mb-4">Continue Watching</h2>
                                     <div id="continue-watching" class="flex h-56 gap-2 my-3 overflow-x-auto align-content-center">
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
-                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted alt=""><source src="./videos/earth.mp4" type="video/mp4"></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
+                                        <div class="flex flex-shrink-0 grow"><div class="overflow-hidden h-fit w-fit rounded-xl"><video width="340" height="224" controls loop muted><source src="./videos/earth.mp4" type="video/mp4" alt=""></video></div></div>
                                     </div>
                                 </div>
                             </div>
